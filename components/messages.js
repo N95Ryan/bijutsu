@@ -36,12 +36,12 @@ export default function Messages({ events, isProcessing, onUndo }) {
                 {onUndo && index > 0 && index === events.length - 1 && (
                   <div className="mt-2 text-right">
                     <button
-                      className="lil-button"
+                      className="undo-button"
                       onClick={() => {
                         onUndo(index);
                       }}
                     >
-                      <UndoIcon className="icon" /> Undo and try a different
+                      <UndoIcon className="icon text-black" /> Undo and try a different
                       change
                     </button>
                   </div>
@@ -51,8 +51,8 @@ export default function Messages({ events, isProcessing, onUndo }) {
               {(isProcessing || index < events.length - 1) && (
                 <Message sender="replicate" isSameSender>
                   {index === 0
-                    ? "What should we change?"
-                    : "What should we change now?"}
+                    ? "What should we change ?"
+                    : "What should we change now ?"}
                 </Message>
               )}
             </Fragment>

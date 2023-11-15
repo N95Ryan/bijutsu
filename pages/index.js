@@ -10,7 +10,7 @@ import { getRandomSeed } from "lib/seeds";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export const appName = "Bitjutsu";
+export const appName = "Bitjutsu - AI Image Editor";
 export const appSubtitle = "With the help of the AI Replicate, edit your pictures using written instructions.";
 export const appMetaDescription = "With the help of the AI Replicate, edit your pictures using written instructions.";
 

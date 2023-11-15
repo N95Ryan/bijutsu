@@ -1,6 +1,6 @@
 {
   "name": "bitjutsu",
-  "description": "Modify images by chatting with a generative AI model.",
+  "description": "With the help of the AI Replicate, edit your pictures using written instructions.",
   "version": "1.0.0",
   "private": true,
   "scripts": {

@@ -9,7 +9,7 @@ export default function Message({
       <div
         className={`p-3 rounded-lg ${shouldFillWidth ? "" : "inline-block"} ${
           sender === "user"
-            ? "ml-16 bg-blue-600 text-white"
+            ? "ml-16 bg-green-700 text-white"
             : "bg-gray-200 text-black"
         } ${isSameSender ? "mt-2" : "mt-8"}`}
       >

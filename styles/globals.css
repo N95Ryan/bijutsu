@@ -34,6 +34,17 @@ input {
   @apply underline;
 }
 
+.undo-button {
+  @apply inline-block;
+  @apply text-sm;
+  @apply text-black;
+  @apply font-bold;
+  @apply rounded-md;
+  @apply py-2;
+  @apply mx-3;
+}
+
+
 .icon {
   @apply inline relative mr-1;
   top: -0.1em;
@@ -54,7 +65,7 @@ input {
 }
 
 body {
-  background-color: #262626
+  background-color: #242525
 }
 
 h1 {
