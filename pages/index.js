@@ -11,8 +11,8 @@ import { getRandomSeed } from "lib/seeds";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export const appName = "Bitjutsu";
-export const appSubtitle = "Edit your photos using written instructions, with the help of an AI.";
-export const appMetaDescription = "Edit your photos using written instructions, with the help of an AI.";
+export const appSubtitle = "With the help of the AI Replicate, edit your pictures using written instructions.";
+export const appMetaDescription = "With the help of the AI Replicate, edit your pictures using written instructions.";
 
 export default function Home() {
   const [events, setEvents] = useState([]);

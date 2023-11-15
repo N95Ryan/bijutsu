@@ -12,13 +12,13 @@ input {
 }
 
 .border-hairline {
-  @apply border border-black border-opacity-10;
+  @apply border border-black;
 }
 
 .lil-button {
   @apply inline-block;
   @apply text-sm;
-  @apply text-gray-500;
+  @apply text-white;
   @apply rounded-md;
   @apply py-2;
   @apply mx-3;
@@ -26,11 +26,11 @@ input {
 
 .lil-text {
   @apply text-sm;
-  @apply text-gray-500;
+  @apply text-white;
 }
 
 .lil-text a {
-  @apply text-gray-800;
+  @apply text-white;
   @apply underline;
 }
 
@@ -44,11 +44,25 @@ input {
 .prose {
   @apply mt-8;
   @apply text-lg;
-  @apply text-gray-500;
+  @apply text-white;
   @apply leading-7;
 }
 
 .prose a {
-  @apply text-gray-600;
+  @apply text-white;
   @apply underline;
 }
+
+body {
+  background-color: #262626
+}
+
+h1 {
+ @apply text-white;
+  ;
+}
+
+p {
+  @apply text-white;
+   ;
+ }
